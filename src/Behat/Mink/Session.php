@@ -231,9 +231,9 @@ class Session
      *
      * @param string $name window name (null for switching back to main window)
      */
-    public function switchToWindow($name = null)
+    public function switchToWindow($name = null, $title = null)
     {
-        $this->driver->switchToWindow($name);
+        $this->driver->switchToWindow($name, $title);
     }
 
     /**

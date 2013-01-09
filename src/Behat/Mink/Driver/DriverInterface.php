@@ -90,7 +90,7 @@ interface DriverInterface
      *
      * @param string $name window name (null for switching back to main window)
      */
-    function switchToWindow($name = null);
+    function switchToWindow($name = null, $title = null);
 
     /**
      * Switches to specific iFrame.
